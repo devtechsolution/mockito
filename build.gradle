@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2021. @Aditya Srivastva
+ * All Rights Reserved
+ */
+
 plugins {
     id 'java'
 }
@@ -15,8 +20,7 @@ dependencies {
 }
 test{
     useJUnitPlatform{
-//        includeTags("calcAdd")
-        //excludeTags("calcAdd", "standard")
+
     }
 }
 
